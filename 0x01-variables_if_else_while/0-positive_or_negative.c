@@ -4,7 +4,7 @@
 
 /**
  * main - program that prints if statement is positive, negative or zero
- * return: Always  (success)
+ * return: Always 0 (success)
  *
  */
 
