@@ -1,11 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main - The last digit
  * return: Always 0 (success)
- *
  */
 int main(void)
 {
