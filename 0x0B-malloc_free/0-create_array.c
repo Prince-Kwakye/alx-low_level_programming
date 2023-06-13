@@ -11,15 +11,14 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *ptArray;
-	unsigned int count;
+	char *str;
+	unsigned int i;
 
-	ptArray = malloc(size * sizeof(char));
+	str = malloc(sizeof(char) * size);
+	if (size == 0 || str == NULL)
+		return (NULL);
 
-	for (count = 0; count < size; count++)
-	{
-		ptArray[count] = c;
-	}
-
-	return (ptArray);
+	for (i = 0; i < size; i++)
+		str[i] = c;
+	return (str);
 }
